@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneaks Wash | Contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="navbar--container">
+            <a class="logo--link" href="/">
+                <img src="images/sneaks-logo.png" class="sneaks--logo" alt="Sneaks Wash Logo">
+              </a>
+           <div class="navbar--toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+           </div>
+           <ul class="navbar--menu">
+            <li class="navbar--item">
+                <a href="/" class="navbar--links">Home</a>
+            </li>
+            <li class="navbar--item">
+                <a href="/prices" class="navbar--links">Prices</a>
+            </li>
+            <li class="navbar--item">
+                <a href="/about" class="navbar--links">About</a>
+            </li>
+           
+            <li class="navbar--btn">
+                <a href="/contact" class="button">Contact</a>
+            </li>
+       </ul>
+        </div>
+    </nav>
+    <div class="colour-container">
+    <div class="container">
+        <div class="main">
+          <div class="main__content">
+            <h3 class="contact--title">
+                    Submit a request and our team will get in touch!
+                </h3>
+
+                <div class="contact-text-cont">
+                <p class="contact--text">
+                    Give your sneakers a new lease on life with our exceptional cleaning service.
+                </p>
+                <p class="contact--text">
+                    If your favorite pair is looking dull and worn-out, it's time to let our experts 
+                    work their magic.
+                </p> 
+                <p class="contact--text">
+                    Submit your request today and experience the transformation firsthand.
+                </p>
+                </div>
+
+
+                <form id="contactForm" method="post" action="/submit-form" enctype="multipart/form-data">
+                    <p class="get_in_touch">Get In Touch</p>
+                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="phone" name="phone" placeholder="Phone" required>
+                    <textarea name="message" placeholder="Message" rows="4" required></textarea>
+                    <input type="file" name="fileInput" required>
+                    <button type="submit" class="submit-btn">Send</button>
+              </div>
+            </div>
+    <div class="success-modal show">
+                    <div class="modal-icon-container">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                        <h2 class="modal-title">
+                            Success
+                        </h2>
+                    <div class="modal-text-container">
+                        
+                        <p class="modal-text-field">
+                            Your shoes are one step closer to revival!
+                        </p>    
+                            <p class="modal-text-field">    
+                            A member of our team will be in touch shortly
+                            <p class="modal-text-field"> 
+                            Thank you for chosing SneaksWash
+                            </p>
+                        </p>
+                        <div class="success-container">
+                            <a href="/" class="success-btn">
+                            Back to Home
+                          </a>
+                        </div>
+                </div>
+
+         </div>
+    </div>                
+
+
+
+ 
+
+     <footer>
+        <div class="footer--container">
+            <div class="social--icons">
+                <a href="tel:+447956014772" target="_blank"><i class="fa fa-phone"></i></a>
+                <a href="https://www.instagram.com/SneaksWash" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <div class="footer--nav">
+                <ul>
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="/prices">Prices</a>
+                    </li>
+                    <li>
+                        <a href="/about">About</a>
+                    </li>
+                    <li>
+                        <a href="/contact">Contact</a>
+                    </li>
+                </ul>
+
+               
+            </div>
+        </div>
+        <div class="footer--bottom">
+            <p class="copyright">&#64;Sneaks Wash | 2023</p>
+       </div>
+     </footer>
+
+
+<script src="script.js"></script>   
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+</body>
+</html>
